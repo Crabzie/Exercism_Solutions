@@ -21,7 +21,7 @@ This repo contains some solutions I have finished... and not yet finished. 😁
 
 ## How to use this repo ?
 
-- Stuff to do before navigating through this repository:
+- Before navigating through this repository:
 
   - Make sure to visit the track syllabus before navigating through the repo, https://exercism.org/tracks/(trackname)/concepts  
     i.e https://exercism.org/tracks/go/concepts for golang, https://exercism.org/tracks/python/concepts for python ...etc.
