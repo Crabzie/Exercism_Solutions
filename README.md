@@ -23,14 +23,14 @@ This repo contains some solutions I have finished... and not yet finished. 😁
 
 - Stuff to do before navigating through this repository:
 
-  - Make sure to visit the track syllabus before navigating through the repo, https://exercism.org/tracks/(trackname)/concepts    
-  i.e https://exercism.org/tracks/go/concepts for golang, https://exercism.org/tracks/python/concepts for python ...etc.
-  
+  - Make sure to visit the track syllabus before navigating through the repo, https://exercism.org/tracks/(trackname)/concepts  
+    i.e https://exercism.org/tracks/go/concepts for golang, https://exercism.org/tracks/python/concepts for python ...etc.
+
   - The syllabus is used to learn and master concepts to achieve fluency in the given track by providing a concept documentation and an exercise, a concept is considered learned upon finishing the concept exercise.
 
   - Additional exercises are available that use multiple concepts in one exercises, so its recommended to check the syllabus or navigate to the exercises
- https://exercism.org/tracks/(trackname)/exercises, i.e https://exercism.org/tracks/go/exercises for go exercises.
- 
+    https://exercism.org/tracks/(trackname)/exercises, i.e https://exercism.org/tracks/go/exercises for go exercises.
+
 - The repo landing page contains tracks i'm working on, i.e Go and Python.
 
 - Subdirectories of tracks contain exercises folders.
