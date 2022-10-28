@@ -1,5 +1,5 @@
 <picture>
-  <img alt="Exercism logo" src="/home/cunbex/Desktop/Exercism-logo.odg">
+  <img alt="Exercism logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Exercism-logo.svg/2560px-Exercism-logo.svg.png">
 </picture>
 
 # Cunbex Exercism.io Solutions!
