@@ -25,6 +25,9 @@ This repo contains some solutions I have finished... and not yet finished. 😁
 
 - Subdirectories of tracks contain exercises folders
 
+- Make sure to visit the track syllabus https://exercism.org/tracks/(trackname)/concepts, i.e https://exercism.org/tracks/go/concepts for golang, https://exercism.org/tracks/python/concepts ...etc
+
+- The syllabus is used to learn and master concepts to achieve fluency in the given track by providing a concept documentation and an exercise to do.
 - Each exercise folder has a :
 
   - [x] For Go (golang) track :
