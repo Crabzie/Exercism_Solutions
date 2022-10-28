@@ -27,7 +27,7 @@ This repo contains some solutions I have finished... and not yet finished. 😁
 
 - Each exercise folder has a :
 
-  - [x] for Go (golang) track :
+  - [x] For Go (golang) track :
 
     - .exercism folder which contains config.json file and metadata.json file.
     - go.mod file which defines the module's module path.
@@ -37,7 +37,7 @@ This repo contains some solutions I have finished... and not yet finished. 😁
     - \(exercise name).go which contains my approach and solution of the problem/exercise.
     - README.md file which contains a description about the exercises.
 
-  - [ ] for Python track :
+  - [ ] For Python track :
     - UNDER UPDATE AT THE MOMENT!
 
 - For any help requests, troubleshooting, update suggestions, exercises solution suggestions feel free to rise a descriptive issue.
