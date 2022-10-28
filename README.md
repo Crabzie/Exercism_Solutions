@@ -28,7 +28,7 @@ This repo contains some solutions I have finished... and not yet finished. 😁
 
   - The syllabus is used to learn and master concepts to achieve fluency in the given track by providing a concept documentation and an exercise, a concept is considered learned upon finishing the concept exercise.
 
-  - Additional exercises are available that use multiple concepts in one exercises, so its recommended to check the syllabus or navigate to the exercises
+  - Additional exercises are available, often they use multiple concepts in one exercises, so its recommended to check the syllabus or navigate to the exercises
     https://exercism.org/tracks/(trackname)/exercises, i.e https://exercism.org/tracks/go/exercises for go exercises.
 
 - The repo landing page contains tracks i'm working on, i.e Go and Python.
