@@ -1,4 +1,4 @@
-# Jim's Exercism.io Solutions!
+# Cunbex Exercism.io Solutions!
 
 Version control repo for my Exercism.io, containing multiple exercises solution about technologies that i'm enrolling/learning.
 
