@@ -28,8 +28,8 @@ This repo contains some solutions I have finished... and not yet finished. 😁
     - go.mod file which defines the module's module path.
     - HELP.md file which provides help on running the tests or submitting the code.
     - HINTS.md file which provides instructions if you get stuck on the exercise.
-    - (exercise name)\_test.go which is used to test the exercise.
-    - (exercise name).go which contains my approach and solution of the problem/exercise.
+    - \(exercise name)\_test.go which is used to test the exercise.
+    - \(exercise name).go which contains my approach and solution of the problem/exercise.
     - README.md file which contains a description about the exercises.
 
   - for Python track :
