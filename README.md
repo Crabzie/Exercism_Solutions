@@ -51,4 +51,4 @@ This repo contains some solutions I have finished... and not yet finished. 😁
   - [ ] For Python track :
     - UNDER UPDATE AT THE MOMENT!
 
-- For any help requests, troubleshooting, update suggestions, exercises solution suggestions feel free to rise a descriptive issue.
+- For any help requests, troubleshooting, update suggestions, exercises solution suggestions feel free to rise a descriptive issue or use the discussions forum.
