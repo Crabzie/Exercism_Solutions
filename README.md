@@ -5,6 +5,7 @@
 # Cunbex Exercism.io Solutions!
 
 Version control repo for my Exercism.io, containing multiple exercises solution about technologies that i'm enrolling/learning.
+Exercism profile: https://exercism.org/profiles/cunbex
 
 ## Why Exercism.io ?
 
