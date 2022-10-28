@@ -36,6 +36,7 @@ This repo contains some solutions I have finished... and not yet finished. 😁
     - \(exercise name)\_test.go which is used to test the exercise.
     - \(exercise name).go which contains my approach and solution of the problem/exercise.
     - README.md file which contains a description about the exercises.
+    - Addition necessary files might be included depending on the exercise, their use will be explained in the exercise README.md file.
 
   - [ ] For Python track :
     - UNDER UPDATE AT THE MOMENT!
