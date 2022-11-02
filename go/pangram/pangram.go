@@ -6,7 +6,7 @@ func IsPangram(input string) bool {
 	var letters strings.Builder
 	letters.WriteString("abcdefghijklmnopqrstuvwxyz")
 	for _, v := range letters.String() {
-		if strings.Contains(strings.ToLower(input), (string(v))) {
+		if strings.ContainsRune(strings.ToLower(input), v) {
 			continue
 		} else {
 			return false
