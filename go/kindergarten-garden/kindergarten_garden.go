@@ -17,22 +17,22 @@ const codeChars string = "VRCG\n"
 
 // fixDiagramAndCheckGarden function checks diagram errors, splits diagram rows, and put each row in a variable.
 // temp variable in fixDiagram function holds the split result on diagram.
-func fixDiagramAndCheckGarden(children []string, diagram string) (err error, secondRow []string, firstRow []string) {
+func fixDiagramAndCheckGarden(children []string, diagram string) (secondRow []string, firstRow []string, err error) {
 	if (len(diagram)-2)/len(children) != 4 {
-		return errors.New("odd number of cups"), nil, nil
+		return nil, nil, errors.New("odd number of cups")
 	}
 	for i, char := range diagram {
 		//validate first char
 		if i == 0 && char != '\n' {
-			return errors.New("wrong diagram format"), nil, nil
+			return nil, nil, errors.New("wrong diagram format")
 		}
 		if !strings.Contains(codeChars, string(char)) {
-			return errors.New("unsupported charracter:" + string(char)), nil, nil
+			return nil, nil, errors.New("unsupported charracter:" + string(char))
 		}
 
 	}
 	temp := strings.Split(strings.TrimPrefix(diagram, "\n"), "\n")
-	return nil, strings.Split(temp[1], ""), strings.Split(temp[0], "")
+	return strings.Split(temp[1], ""), strings.Split(temp[0], ""), nil
 }
 
 // plants variable holds a map with plants names
@@ -43,7 +43,7 @@ func fixDiagramAndCheckGarden(children []string, diagram string) (err error, sec
 func NewGarden(diagram string, children []string) (*Garden, error) {
 	plants := map[string]string{"V": "violets", "C": "clover", "G": "grass", "R": "radishes"}
 	result := make(Garden)
-	err, secondRow, firstRow := fixDiagramAndCheckGarden(children, diagram)
+	secondRow, firstRow, err := fixDiagramAndCheckGarden(children, diagram)
 	if err != nil {
 		return nil, err
 	}
