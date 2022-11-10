@@ -40,7 +40,7 @@ This repo contains some solutions I have finished... and not yet finished. 😁
   - [x] For Go (golang) track :
 
     - .exercism folder which contains config.json file and metadata.json file.
-    - go.mod file which defines the module's module path.
+    - go.mod file which defines the module's module path & the Go version used.
     - HELP.md file which provides help on running the tests or submitting the code.
     - HINTS.md file which provides instructions if you get stuck on the exercise.
     - \(exercise name)\_test.go which is used to test the exercise.
