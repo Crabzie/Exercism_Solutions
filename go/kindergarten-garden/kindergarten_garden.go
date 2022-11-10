@@ -17,24 +17,22 @@ const codeChars string = "VRCG\n"
 
 // fixDiagramAndCheckGarden function checks diagram errors, splits diagram rows, and put each row in a variable.
 // temp variable in fixDiagram function holds the split result on diagram.
-func fixDiagramAndCheckGarden(children *[]string, diagram *string, firstRow *[]string, secondRow *[]string) error {
-	if (len(*diagram)-2)/len(*children) != 4 {
-		return errors.New("odd number of cups")
+func fixDiagramAndCheckGarden(children []string, diagram string) (err error, secondRow []string, firstRow []string) {
+	if (len(diagram)-2)/len(children) != 4 {
+		return errors.New("odd number of cups"), nil, nil
 	}
-	for i, char := range *diagram {
+	for i, char := range diagram {
 		//validate first char
 		if i == 0 && char != '\n' {
-			return errors.New("wrong diagram format")
+			return errors.New("wrong diagram format"), nil, nil
 		}
 		if !strings.Contains(codeChars, string(char)) {
-			return errors.New("unsupported charracter:" + string(char))
+			return errors.New("unsupported charracter:" + string(char)), nil, nil
 		}
 
 	}
-	temp := strings.Split(strings.TrimPrefix(*diagram, "\n"), "\n")
-	*firstRow = strings.Split(temp[0], "")
-	*secondRow = strings.Split(temp[1], "")
-	return nil
+	temp := strings.Split(strings.TrimPrefix(diagram, "\n"), "\n")
+	return nil, strings.Split(temp[1], ""), strings.Split(temp[0], "")
 }
 
 // plants variable holds a map with plants names
@@ -45,8 +43,7 @@ func fixDiagramAndCheckGarden(children *[]string, diagram *string, firstRow *[]s
 func NewGarden(diagram string, children []string) (*Garden, error) {
 	plants := map[string]string{"V": "violets", "C": "clover", "G": "grass", "R": "radishes"}
 	result := make(Garden)
-	var firstRow, secondRow []string
-	err := fixDiagramAndCheckGarden(&children, &diagram, &firstRow, &secondRow)
+	err, secondRow, firstRow := fixDiagramAndCheckGarden(children, diagram)
 	if err != nil {
 		return nil, err
 	}
@@ -69,10 +66,10 @@ func NewGarden(diagram string, children []string) (*Garden, error) {
 	}
 	return &result, nil
 }
-func (g *Garden) Plants(child string) ([]string, bool) {
-	_, ok := (*g)[child]
+func (g Garden) Plants(child string) ([]string, bool) {
+	_, ok := g[child]
 	if !ok {
 		return []string{}, false
 	}
-	return (*g)[child], true
+	return g[child], true
 }
