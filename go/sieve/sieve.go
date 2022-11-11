@@ -13,8 +13,11 @@ func Sieve(limit int) []int {
 		case true:
 			continue
 		}
-		j := i
-		for ok := marked[i*j]; j <= limit/2 && i*j <= limit && !ok; j++ {
+		for j := i; j <= limit/i; j++ {
+			ok := marked[i*j]
+			if ok {
+				continue
+			}
 			marked[i*j] = false
 		}
 	}
