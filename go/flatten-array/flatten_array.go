@@ -7,7 +7,7 @@ func Flatten(nested interface{}) []interface{} {
 		for _, v := range t {
 			result = append(result, Flatten(v)...)
 		}
-	case interface{}:
+	case int:
 		result = append(result, t)
 	}
 	return result
