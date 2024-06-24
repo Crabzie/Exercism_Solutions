@@ -21,13 +21,16 @@ Exercism profile: https://exercism.org/profiles/cunbex
 
 - Before navigating through this repository:
 
-  - Make sure to visit the track syllabus, https://exercism.org/tracks/(trackname)/concepts  
-    i.e https://exercism.org/tracks/go/concepts for golang, https://exercism.org/tracks/typescript/concepts for Typescript...etc.
+  - Make sure to visit the track syllabus, https://exercism.org/tracks/(trackname)/concepts, i.e:
+    https://exercism.org/tracks/go/concepts for golang<br />
+    https://exercism.org/tracks/typescript/concepts for Typescript
 
   - The syllabus is used to learn and master concepts to achieve fluency in the given track by providing a concept documentation and an exercise, a concept is considered learned upon finishing the concept exercise.
 
   - Additional exercises are available, often they use multiple concepts in one exercises, so its recommended to check the syllabus or navigate to the exercises
-    https://exercism.org/tracks/(trackname)/exercises, i.e https://exercism.org/tracks/go/exercises for go exercises.
+    https://exercism.org/tracks/(trackname)/exercises, i.e:<br />
+    https://exercism.org/tracks/go/exercises for Go exercises.<br />
+    https://exercism.org/tracks/typescript/exercises for Typescript exercises.
 
 - The repo landing page contains tracks i'm working on, i.e Go and Typescript.
 
