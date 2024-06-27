@@ -4,7 +4,7 @@
 
 # Cunbex Exercism.io Solutions!
 
-Version control repo for my learning path on Exercism.io, containing exercises solution about my Golang & Typescript solved problems.
+Version control repo for my learning path on Exercism.io, containing exercises solution about my Golang,lua & Typescript solved problems.
 Exercism profile: https://exercism.org/profiles/cunbex
 
 ## Why Exercism.io ?
@@ -22,23 +22,19 @@ Exercism profile: https://exercism.org/profiles/cunbex
 - Before navigating through this repository:
 
   - Make sure to visit the track syllabus, https://exercism.org/tracks/(trackname)/concepts, i.e:
-    https://exercism.org/tracks/go/concepts for golang<br />
-    https://exercism.org/tracks/typescript/concepts for Typescript
+    https://exercism.org/tracks/go/concepts for Golang, etc...
 
   - The syllabus is used to learn and master concepts to achieve fluency in the given track by providing a concept documentation and an exercise, a concept is considered learned upon finishing the concept exercise.
 
   - Additional exercises are available, often they use multiple concepts in one exercises, so its recommended to check the syllabus or navigate to the exercises
     https://exercism.org/tracks/(trackname)/exercises, i.e:<br />
-    https://exercism.org/tracks/go/exercises for Go exercises.<br />
-    https://exercism.org/tracks/typescript/exercises for Typescript exercises.
-
-- The repo landing page contains tracks i'm working on, i.e Go and Typescript.
+    https://exercism.org/tracks/go/exercises for Golang, etc...
 
 - Subdirectories of tracks contain exercises folders.
 
 - Each exercise folder has a :
 
-  - [x] For Go (golang) track :
+  - [x] For Go Golang track :
 
     - .exercism folder which contains config.json file and metadata.json file.
     - go.mod file which defines the module's module path & the Go version used.
@@ -49,6 +45,8 @@ Exercism profile: https://exercism.org/profiles/cunbex
     - README.md file which contains a description about the exercises.
     - Addition necessary files might be included depending on the exercise, their use will be explained in the exercise README.md file.
 
+  - [ ] For Lua track :
+    - UNDER UPDATE AT THE MOMENT!
   - [ ] For Typescript track :
     - UNDER UPDATE AT THE MOMENT!
 
