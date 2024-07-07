@@ -46,8 +46,8 @@ Exercism profile: https://exercism.org/profiles/cunbex
     - Addition necessary files might be included depending on the exercise, their use will be explained in the exercise README.md file.
 
   - [ ] For Lua track :
-    - UNDER UPDATE AT THE MOMENT!
+    - (LEARNING) UNDER UPDATE AT THE MOMENT!
   - [ ] For Typescript track :
-    - UNDER UPDATE AT THE MOMENT!
+    - (LEARNING) UNDER UPDATE AT THE MOMENT!
 
 - For any help requests, troubleshooting, update suggestions, exercises solution suggestions feel free to rise a descriptive issue or use the discussions forum.
