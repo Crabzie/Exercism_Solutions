@@ -45,7 +45,7 @@ Exercism profile: https://exercism.org/profiles/cunbex
     - README.md file which contains a description about the exercises.
     - Addition necessary files might be included depending on the exercise, their use will be explained in the exercise README.md file.
 
-   - [ ] For Ryst track :
+   - [ ] For Rust track :
     - (LEARNING) UNDER DEVELOPMENT AT THE MOMENT!
 
 - For any help requests, troubleshooting, update suggestions, exercises solution suggestions feel free to rise a descriptive issue or use the discussions forum.
