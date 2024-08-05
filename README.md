@@ -4,7 +4,7 @@
 
 # Cunbex Exercism.io Solutions!
 
-Version control repo for my learning path on Exercism.io, containing exercises solution about my Golang,lua & Typescript solved problems.
+Version control repo for my learning path on Exercism.io, containing exercises solution about my Golang & Rust solved problems.
 Exercism profile: https://exercism.org/profiles/cunbex
 
 ## Why Exercism.io ?
@@ -45,9 +45,7 @@ Exercism profile: https://exercism.org/profiles/cunbex
     - README.md file which contains a description about the exercises.
     - Addition necessary files might be included depending on the exercise, their use will be explained in the exercise README.md file.
 
-  - [ ] For Lua track :
-    - (LEARNING) UNDER UPDATE AT THE MOMENT!
-  - [ ] For Typescript track :
-    - (LEARNING) UNDER UPDATE AT THE MOMENT!
+   - [ ] For Ryst track :
+    - (LEARNING) UNDER DEVELOPMENT AT THE MOMENT!
 
 - For any help requests, troubleshooting, update suggestions, exercises solution suggestions feel free to rise a descriptive issue or use the discussions forum.
